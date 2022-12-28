@@ -11,6 +11,10 @@ import StateClass from './04.state/4.1.stateinClasscomponent';
 import PropsComponent from './05.props/5.1.introtoprops';
 import InlineCss from '../src/01.addingCss/1.2.inlineCss';
 import Mounting from './11.lifeCyclemethod/11.1.mounting';
+import Updating from './11.lifeCyclemethod/11.2.updating';
+import UseState from './14.hooks/14.1.useState';
+import UseEffect from './14.hooks/14.2.useEffect';
+import UseReducer from './14.hooks/14.3.useReducer';
 
 
 const App = () => {
@@ -29,7 +33,13 @@ const App = () => {
       </StateClass> */}
       {/* <PropsComponent/> */}
       {/* <InlineCss/> */}
-      <Mounting/>
+      {/* <Mounting/> */}
+      {/* <Updating/> */}
+      <UseState/>
+      {/* <UseEffect/> */}
+      <UseReducer/>
+      
+
     </div>
   );
 }
